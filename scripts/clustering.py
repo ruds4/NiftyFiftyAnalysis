@@ -19,6 +19,6 @@ def apply_kmeans_clustering(df, num_clusters=3):
     return df, kmeans  # Return model without auto-showing graph
 
 if __name__ == "__main__":
-    df = load_and_preprocess_data("../data/nifty_dataset.csv")
+    df = load_and_preprocess_data("..NiftyFiftyAnalysis/data/nifty_dataset.csv")
     df, model = apply_kmeans_clustering(df, num_clusters=3)
     plt.show(block=True)

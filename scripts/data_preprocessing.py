@@ -18,5 +18,5 @@ def load_and_preprocess_data(file_path):
     return df_numeric
 
 if __name__ == "__main__":
-    df = load_and_preprocess_data("../data/nifty_dataset.csv")
+    df = load_and_preprocess_data("..NiftyFiftyAnalysis/data/nifty_dataset.csv")
     print(df.head())  # Preview cleaned data

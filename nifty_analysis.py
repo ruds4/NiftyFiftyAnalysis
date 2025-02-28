@@ -7,7 +7,7 @@ from scripts.anomaly_detection import detect_anomalies
 from scripts.optimal_k_analysis import run_optimal_k_analysis
 
 # Load the dataset
-file_path = "data/nifty_dataset.csv"
+file_path = "NiftyFiftyAnalysis/data/nifty_dataset.csv"
 df = load_and_preprocess_data(file_path)
 
 # Function to display menu

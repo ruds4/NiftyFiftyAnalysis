@@ -6,7 +6,7 @@ from sklearn.metrics import silhouette_score
 from scripts.data_preprocessing import load_and_preprocess_data
 
 # Load dataset
-file_path = "data/nifty_dataset.csv"
+file_path = "NiftyFiftyAnalysis/data/nifty_dataset.csv"
 df = load_and_preprocess_data(file_path)
 
 # Function to determine the optimal number of clusters

@@ -18,6 +18,6 @@ def detect_anomalies(df, contamination=0.05):
     return df, model  # Return model without auto-showing graph
 
 if __name__ == "__main__":
-    df = load_and_preprocess_data("../data/nifty_dataset.csv")
+    df = load_and_preprocess_data("..NiftyFiftyAnalysis/data/nifty_dataset.csv")
     df, model = detect_anomalies(df)
     plt.show(block=True)

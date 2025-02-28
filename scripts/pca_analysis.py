@@ -18,6 +18,6 @@ def apply_pca(df, n_components=2):
     return pca_result, pca  # Return model without auto-showing graph
 
 if __name__ == "__main__":
-    df = load_and_preprocess_data("../data/nifty_dataset.csv")
+    df = load_and_preprocess_data("..NiftyFiftyAnalysis/data/nifty_dataset.csv")
     pca_result, pca_model = apply_pca(df)
     plt.show(block=True)
